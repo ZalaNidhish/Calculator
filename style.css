@@ -1,0 +1,38 @@
+.BTN{
+
+COLOR:yellow;
+BACKGROUND-COLOR:BLACK;
+padding=10;
+border:0;
+width:30;
+font:bold
+}
+
+.MBTN{
+font:bold;
+COLOR:red;
+BACKGROUND-COLOR:BLACK;
+padding=10;
+width:30;
+border:0;
+
+}
+
+.display{
+	text-align:right;
+	width:150;
+	height:25
+}
+
+.acbtn{
+	font:bold;
+	width:30;	
+	COLOR:red;
+	BACKGROUND-COLOR:black;
+	padding=10;
+	border:0;
+}
+
+.tr{
+	background-color:black;	
+}

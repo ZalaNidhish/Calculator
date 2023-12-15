@@ -1,0 +1,66 @@
+<html>
+
+   <HEAD>
+      <title>my calculator</title>
+<LINK REL="STYLESHEET" HREF="STYLE.CSS">
+   </HEAD
+
+<BODY class="body">
+
+<B><U><I>HOME MADE CALCULATOR</I></U></B> 
+
+<BR>
+<br>
+
+<form>
+
+<TABLE border=2  >
+<tr class="tr">
+<td colspan=4>
+<INPUT TYPE="TEXT" class="DISPLAY" name="display"  READONLY >
+</td>
+</tr>
+
+<tr class="tr">
+<td>
+<INPUT TYPE="BUTTON" CLASS="BTN" VALUE="9" onclick="display.value +='9'">
+</td>
+<td>
+<INPUT TYPE="BUTTON" CLASS="BTN" VALUE="8" onclick="display.value +='8'">
+</td>
+<td>
+<INPUT TYPE="BUTTON" CLASS="BTN" VALUE="7" onclick="display.value +='7'">
+</td>
+<td>
+<INPUT TYPE="BUTTON" CLASS="MBTN" VALUE="+" onclick="display.value +='+'">
+</td>
+</tr>
+<tr class="tr">
+<td><INPUT TYPE="BUTTON" CLASS="BTN" VALUE="6" onclick="display.value +='6'"></td>
+<td><INPUT TYPE="BUTTON" CLASS="BTN" VALUE="5" onclick="display.value +='5'"></td>
+<td><INPUT TYPE="BUTTON" CLASS="BTN" VALUE="4" onclick="display.value +='4'"></td>
+
+<td><INPUT TYPE="BUTTON" CLASS="MBTN" VALUE="-" onclick="display.value +='-'"></td>
+</tr>
+<tr class="tr">
+<td><INPUT TYPE="BUTTON" CLASS="BTN" VALUE="3" onclick="display.value +='3'"></td>
+<td><INPUT TYPE="BUTTON" CLASS="BTN" VALUE="2" onclick="display.value +='2'"></td>
+<td><INPUT TYPE="BUTTON" CLASS="BTN" VALUE="1" onclick="display.value +='1'"></td>
+
+<td><INPUT TYPE="BUTTON" CLASS="MBTN" VALUE="x" onclick="display.value +='*'"></td>
+</tr>
+<tr class="tr">
+<td><INPUT TYPE="BUTTON" CLASS="acBTN" VALUE="AC" onclick="display.value =' '"></td>
+<td><INPUT TYPE="BUTTON" CLASS="BTN" VALUE="0" onclick="display.value +='0'"></td>
+<td><INPUT TYPE="BUTTON" CLASS="acBTN" VALUE="=" onclick="display.value =eval(display.value)"></td>
+<td><INPUT TYPE="BUTTON" CLASS="MBTN" VALUE="/" onclick="display.value +='/'"></td>
+</table>
+
+
+
+
+</form>
+
+</BODY>
+
+</html>
